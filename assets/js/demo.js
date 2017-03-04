@@ -6,7 +6,6 @@
 // require("!style-loader!css-loader!sass-loader!../css/style.scss");
 // require("../style/scss/index.scss");
 var Vue = require('./lib/vue.js');
-var $ = require('./lib/jquery.js');
 var demo = require('../component/demo.vue');
 
 
