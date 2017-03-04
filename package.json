@@ -1,0 +1,41 @@
+{
+  "name": "wbx-vue2.0",
+  "version": "0.0.1",
+  "description": "vue2.0简易框架",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": {
+    "name": "魏博学",
+    "email": "wbx_901118@sina.com"
+  },
+  "keywords": [
+    "vue",
+    "jade",
+    "sass",
+    "webpack"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.3",
+    "postcss-loader": "^1.2.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.0",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
