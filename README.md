@@ -6,6 +6,6 @@
 
 ## 运行项目webpack 自动更新webpack -w
 
-### 别忘记npm install
+## npm install 有一些等待更新的东西后续更新，目前不影响使用
 
 ## 不足请各位高手指点，学习ing
