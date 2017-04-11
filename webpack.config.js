@@ -11,16 +11,16 @@ module.exports = {
     // “__dirname”是Node.js中的一个全局变量，它指向当前执行脚本所在的目录。
     //页面入口文件配置 已多次提及的唯一入口文件
     entry: {
-        "index": __dirname + "/assets/js/index.js"
+        "demo": __dirname + "/assets/js/demo.js"
     },
     //入口文件输出配置
     output: {
         /* 输出目录，没有则新建 */
-        path: path.resolve(__dirname, './dist/views'),
+        path: path.resolve(__dirname, './dist/js'),
         /* 静态目录，可以直接从这里取文件 */
         publicPath: '/dist/',
         /* 文件名 */
-        filename: "[name]/[name].js" //打包后输出文件的文件名
+        filename: "[name].js" //打包后输出文件的文件名
     },
     // loaders
     module: {
