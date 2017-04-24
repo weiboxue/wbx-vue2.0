@@ -26,6 +26,8 @@ module.exports = {
     module: {
         //在配置文件里添加JSON loader
         rules: [
+            // img limit/1024是多少k
+            {test: /\.(png|jpg|jpeg|gif)$/, loader: 'url-loader?limit=51200&name=images/[name]/[hash:8].[name].[ext]'},
             //json
             {test: /\.json$/, loader: "json-loader"},
             // jade
